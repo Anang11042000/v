@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.running-text {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-  animation: running 10s linear infinite;
-}
-
-@keyframes running {
-  from {
-    left: 50%;
-  }
-  to {
-    left: -50%;
-  }
-}
-</style>
-</head>
-<body>
-
-<div class="running-text" style="font-size: 24px; font-weight: bold; color: blue;">
-  C E L E N G  V P N  
-</div>
-
-</body>
-</html>
+<p align="center">
+  <img src="https://img.shields.io/badge/CELENG-VPN-purple?style=for-the-badge&logo=appveyor" alt="CELENG VPN">
+</p>
 
 Part 1: Update dan Upgrade
    <img src="https://img.shields.io/badge/Update%20Upgrade-green">
