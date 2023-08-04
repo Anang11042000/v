@@ -294,7 +294,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green       INSTALL FILE MENU               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://raw.githubusercontent.com/Anang11042000/v/main/menu/update.sh && chmod +x update.sh && dos2unix update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Anang11042000/v/main/menu/update.sh && chmod +x update.sh && ./update.sh
 sleep 2
 clear
 echo -e "[ ${green}ok${NC} ] sukses install OHP "
