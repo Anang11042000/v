@@ -243,8 +243,8 @@ jam=`date -d "0 days" +"%X"`
 
 # DNS PATCH
 #tipeos2=$(uname -m)
-Name=$(curl -sS https://raw.githubusercontent.com/kuhing/ip/main/vps | grep $MYIP | awk '{print $2}')
-Exp2=$(curl -sS https://raw.githubusercontent.com/kuhing/ip/main/vps | grep $MYIP | awk '{print $3}')
+Name=$(curl -sS https://raw.githubusercontent.com/Anang11042000/Izin/main/Ip | grep $MYIP | awk '{print $2}')
+Exp2=$(curl -sS https://raw.githubusercontent.com/Anang11042000/Izin/main/Ip | grep $MYIP | awk '{print $3}')
 # GETTING DOMAIN NAME
 Domen="$(cat /etc/xray/domain)"
 echo -e ""
@@ -280,8 +280,8 @@ echo -e "❇️ XRAYS Vless TLS         :$status_tls_vless"
 echo -e "❇️ XRAYS Vless None TLS    :$status_nontls_vless"
 echo -e "❇️ XRAYS Trojan            :$status_virus_trojan"
 echo -e "❇️ Trojan GO               :$status_trgo"
-echo -e "❇️ Websocket TLS           :$swstls"
-echo -e "❇️ Websocket None TLS      :$swsdrop"
+#echo -e "❇️ Websocket TLS           :$swstls"
+#echo -e "❇️ Websocket None TLS      :$swsdrop"
 #echo -e "❇️ OHP Dropbear            :$sohp"
 #echo -e "❇️ OHP OpenVPN             :$sohq"
 #echo -e "❇️ OHP SSH                 :$sohr"
